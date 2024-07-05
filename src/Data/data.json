@@ -1,0 +1,411 @@
+{
+  "tours":[
+   {
+    "id":77,
+    "img":"https://alisontravelgroup.com/uploads/1de3d4139721d0a92b8c.webp",
+    "txt":"Azerbaijan",
+    "flag":"https://alisontravelgroup.com/uploads/96b4510462fa76d1891e.svg",
+    "country":[
+      {
+        "id": 1,
+        "title": "Azerbaijan Guided tour package",
+        "description": "Baku - Guba - Gabala",
+        "image": "https://alisontravelgroup.com/uploads/ba1ae0e6ddb33cc11b8f.webp",
+        "duration": "3",
+        "price": 300
+      },
+      {
+        "id": 2,
+        "title": "Baku - Guba - Shahdag - Samakhi - Gabala",
+        "description": "Discover Azerbaijan in a 9-day tour",
+        "image": "https://alisontravelgroup.com/uploads/a4982cced2314b16161f.webp",
+        "duration": "2",
+        "price": 200
+      },
+      {
+        "id": 3,
+        "title": "Gabala day tour package",
+        "description": "Baku - Gabala",
+        "image": "https://alisontravelgroup.com/uploads/645b58d59cb630ce4752.webp",
+        "duration": "3",
+        "price": 300
+      },
+      {
+        "id": 4,
+        "title": "Baku night tour package",
+        "description": "Baku tour package",
+        "image": "https://alisontravelgroup.com/uploads/b4dc4ce4236391f24b7b.webp",
+        "duration": "2",
+        "price": 200
+      },
+      {
+        "id": 5,
+        "title": "Azerbaijan Guided tour package",
+        "description": "Baku - Guba - Gabala",
+        "image": "https://alisontravelgroup.com/uploads/ba1ae0e6ddb33cc11b8f.webp",
+        "duration": "3",
+        "price": 300
+      },
+      {
+        "id": 7,
+        "title": "Ancient Sheki day tour package",
+        "description": "Shaki tour package",
+        "image": "https://alisontravelgroup.com/uploads/442373ce6f79c840a1ef.webp",
+        "duration": "2",
+        "price": 200
+      },
+      {
+        "id": 8,
+        "title": "Daily Baku shopping tour package",
+        "description": "Baku tour package",
+        "image": "https://alisontravelgroup.com/uploads/e391100eff5b2a07d519.webp",
+        "duration": "3",
+        "price": 300
+      },
+      {
+        "id": 9,
+        "title": "Baku - Guba - Shahdag - Samakhi - Gabala",
+        "description": "Discover Azerbaijan in a 9-day tour",
+        "image": "https://alisontravelgroup.com/uploads/a4982cced2314b16161f.webp",
+        "duration": "2",
+        "price": 200
+      }
+    ]
+   },
+   {
+    "id":88,
+    "img":"https://alisontravelgroup.com/uploads/cea8bd89af7ff1a38e03.avif",
+    "txt":"Georgia",
+    "flag":"https://alisontravelgroup.com/uploads/d01a1c0d93211880396c.svg",
+    "country":[
+      {
+        "id": 1,
+        "title": "5 day Georgian Treasures tour package",
+        "description": "Tbilisi – Mtsketa – Ananuri – Gudauri - Stefantsminda – Borjomi – Vardzia - Khertvisi",
+        "image": "https://alisontravelgroup.com/uploads/330847886c736f5f9fef.jpg",
+        "duration": "4",
+        "price": 400
+      },
+      {
+        "id": 2,
+        "title": "Tbilisi – Gudauri Tour Package",
+        "description": "Gudauri - Kazbegi - Tbilisi",
+        "image": "https://alisontravelgroup.com/uploads/38dff8651e65161cb60d.webp",
+        "duration": "3",
+        "price": 350
+      },
+      {
+        "id": 3,
+        "title": "5 day Georgian Treasures tour package",
+        "description": "Tbilisi – Mtsketa – Ananuri – Gudauri - Stefantsminda – Borjomi – Vardzia - Khertvisi",
+        "image": "https://alisontravelgroup.com/uploads/330847886c736f5f9fef.jpg",
+        "duration": "4",
+        "price": 400
+      },
+      {
+        "id": 4,
+        "title": "Tbilisi – Gudauri Tour Package",
+        "description": "Gudauri - Kazbegi - Tbilisi",
+        "image": "https://alisontravelgroup.com/uploads/86d1b0a51ec705249267.webp",
+        "duration": "3",
+        "price": 350
+      },  {
+        "id": 5,
+        "title": "5 day Georgian Treasures tour package",
+        "description": "Tbilisi – Mtsketa – Ananuri – Gudauri - Stefantsminda – Borjomi – Vardzia - Khertvisi",
+        "image": "https://alisontravelgroup.com/uploads/2d591fdee1dd87727815.jpg",
+        "duration": "4",
+        "price": 400
+      },
+      {
+        "id": 6,
+        "title": "Tbilisi – Gudauri Tour Package",
+        "description": "Gudauri - Kazbegi - Tbilisi",
+        "image": "https://alisontravelgroup.com/uploads/5af0770f5af3197ec34f.jpg",
+        "duration": "3",
+        "price": 350
+      }
+    ]
+   },
+   {
+    "id":99,
+    "img":"https://alisontravelgroup.com/uploads/a1c7590700a9730416af.webp",
+    "txt":"Turkey",
+    "flag":"https://alisontravelgroup.com/uploads/42748b146293ae432bd9.svg",
+    "country":[
+      {
+        "id": 1,
+        "title": "Istanbul Tour",
+        "description": "Visit the historical sites of Istanbul.",
+        "image": "https://alisontravelgroup.com/uploads/0a2a65ffdd946240f9dd.webp",
+        "duration": "5",
+        "price": 500
+      },
+      {
+        "id": 2,
+        "title": "Cappadocia Tour",
+        "description": "Explore the unique landscapes of Cappadocia.",
+        "image": "https://alisontravelgroup.com/uploads/a7fa16a1c4c42b1b313a.webp",
+        "duration": "3",
+        "price": 450
+      }, {
+        "id": 3,
+        "title": "Istanbul Tour",
+        "description": "Visit the historical sites of Istanbul.",
+        "image": "https://alisontravelgroup.com/uploads/937c5b8197fedb989838.webp",
+        "duration": "5",
+        "price": 500
+      },
+      {
+        "id": 4,
+        "title": "Cappadocia Tour",
+        "description": "Explore the unique landscapes of Cappadocia.",
+        "image": "https://alisontravelgroup.com/uploads/6d6ce3070c37bd2bbc18.webp",
+        "duration": "3",
+        "price": 450
+      }, {
+        "id": 5,
+        "title": "Istanbul Tour",
+        "description": "Visit the historical sites of Istanbul.",
+        "image": "https://alisontravelgroup.com/uploads/0403bfdf060f73f65b10.webp",
+        "duration": "5",
+        "price": 500
+      },
+      {
+        "id": 6,
+        "title": "Cappadocia Tour",
+        "description": "Explore the unique landscapes of Cappadocia.",
+        "image": "https://alisontravelgroup.com/uploads/a7fa16a1c4c42b1b313a.webp",
+        "duration": "3",
+        "price": 450
+      }
+    ]
+   },
+   {
+    "id":100,
+    "img":"https://alisontravelgroup.com/uploads/8b38900a6c5770a65796.webp",
+    "txt":"Russia",
+    "flag":"https://alisontravelgroup.com/uploads/e9a185f3e4e2aa3de5d3.svg",
+    "country":[
+      {
+        "id": 1,
+        "title": "Russia Tour Package For 8 Nights And 9 Days",
+        "description": "Russia tour package -Moscow -St. Petersburg",
+        "image": "https://alisontravelgroup.com/uploads/42a782048b699dfe5c1f.webp",
+        "duration": "5",
+        "price": 500
+      }, 
+      {
+        "id": 2,
+        "title": "Moscow St Petersburg Tour Package For 4 Nights 5 Days",
+        "description": "Moscow St Petersburg Tour Package",
+        "image": "https://alisontravelgroup.com/uploads/1a9307461cfbaf99e2cc.webp",
+        "duration": "5",
+        "price": 500
+      }, 
+       {
+        "id": 3,
+        "title": "Russia Tour Package For 8 Nights And 9 Days",
+        "description": "Russia tour package -Moscow -St. Petersburg",
+        "image": "https://alisontravelgroup.com/uploads/42a782048b699dfe5c1f.webp",
+        "duration": "5",
+        "price": 500
+      }, 
+      {
+        "id": 4,
+        "title": "Moscow St Petersburg Tour Package For 4 Nights 5 Days",
+        "description": "Moscow St Petersburg Tour Package",
+        "image": "https://alisontravelgroup.com/uploads/1a9307461cfbaf99e2cc.webp",
+        "duration": "5",
+        "price": 500
+      }, 
+      {
+       "id": 5,
+       "title": "Russia Tour Package For 8 Nights And 9 Days",
+       "description": "Russia tour package -Moscow -St. Petersburg",
+       "image": "https://alisontravelgroup.com/uploads/42a782048b699dfe5c1f.webp",
+       "duration": "5",
+       "price": 500
+     }, 
+     {
+       "id": 6,
+       "title": "Moscow St Petersburg Tour Package For 4 Nights 5 Days",
+       "description": "Moscow St Petersburg Tour Package",
+       "image": "https://alisontravelgroup.com/uploads/1a9307461cfbaf99e2cc.webp",
+       "duration": "5",
+       "price": 500
+     }
+    ]
+   }
+  ],
+  
+  "caruselcar":[
+{
+  "id":875474745,
+  "image":"https://alisontravelgroup.com/uploads/2ec723fdb0e1737e40be.jpg",
+  "text":"Zirve Hotel"
+},
+{
+  "id":873474745,
+  "image":"https://alisontravelgroup.com/uploads/e91f0ff8b0cdbe425dab.webp",
+  "text":"Ramada Plaza By Wyndham Istanbul"
+},
+{
+  "id":1075474745,
+  "image":"https://alisontravelgroup.com/uploads/b386d4b3fa21520f6001.webp",
+  "text":"Gaya Residence"
+}
+  ],
+    "slidertext":[
+      {
+        "id":1000,
+        "img":"https://alisontravelgroup.com/uploads/b7e8f57f2504559de1ff.webp",
+        "text":"Unforgettable Baku tourpackage"
+      },
+      {
+        "id":2000,
+        "img":"https://alisontravelgroup.com/uploads/1d3f632dc715f950d295.jpg",
+        "text":"Memorable Baku tour package"
+      },
+      {
+        "id":3000,
+        "img":"https://alisontravelgroup.com/uploads/b7e8f57f2504559de1ff.webp",
+        "text":"Baku-Shamakhi-Ismayilli tour package"
+      },
+      {
+        "id":4000,
+        "img":"https://alisontravelgroup.com/uploads/e1bf6da0c2e1ff1a7193.jpg",
+        "text":"Memorable Baku tour package"
+      },
+      {
+        "id":5000,
+        "img":"https://alisontravelgroup.com/uploads/b7e8f57f2504559de1ff.webp",
+        "text":"Unforgettable Baku tourpackage"
+      },
+      {
+        "id":6000,
+        "img":"https://alisontravelgroup.com/uploads/1d3f632dc715f950d295.jpg",
+        "text":"Memorable Baku tour package"
+      },
+      {
+        "id":7000,
+        "img":"https://alisontravelgroup.com/uploads/b7e8f57f2504559de1ff.webp",
+        "text":"Baku-Shamakhi-Ismayilli tour package"
+      },
+      {
+        "id":8000,
+        "img":"https://alisontravelgroup.com/uploads/e1bf6da0c2e1ff1a7193.jpg",
+        "text":"Memorable Baku tour package"
+      },
+      {
+        "id":123000,
+        "img":"https://alisontravelgroup.com/uploads/1d3f632dc715f950d295.jpg",
+        "text":"Memorable Baku tour package"
+      },
+      {
+        "id":7454000,
+        "img":"https://alisontravelgroup.com/uploads/b7e8f57f2504559de1ff.webp",
+        "text":"Baku-Shamakhi-Ismayilli tour package"
+      },
+      {
+        "id":8213000,
+        "img":"https://alisontravelgroup.com/uploads/e1bf6da0c2e1ff1a7193.jpg",
+        "text":"Memorable Baku tour package"
+      },
+      {
+        "id":6123213000,
+        "img":"https://alisontravelgroup.com/uploads/1d3f632dc715f950d295.jpg",
+        "text":"Memorable Baku tour package"
+      },
+      {
+        "id":1232132445000,
+        "img":"https://alisontravelgroup.com/uploads/b7e8f57f2504559de1ff.webp",
+        "text":"Baku-Shamakhi-Ismayilli tour package"
+      },
+      {
+        "id":123123090200,
+        "img":"https://alisontravelgroup.com/uploads/e1bf6da0c2e1ff1a7193.jpg",
+        "text":"Memorable Baku tour package"
+      },
+      {
+        "id":823000,
+        "img":"https://alisontravelgroup.com/uploads/e1bf6da0c2e1ff1a7193.jpg",
+        "text":"Memorable Baku tour package"
+      },
+      {
+        "id":60123213000,
+        "img":"https://alisontravelgroup.com/uploads/1d3f632dc715f950d295.jpg",
+        "text":"Memorable Baku tour package"
+      },
+      {
+        "id":111232132445000,
+        "img":"https://alisontravelgroup.com/uploads/b7e8f57f2504559de1ff.webp",
+        "text":"Baku-Shamakhi-Ismayilli tour package"
+      },
+      {
+        "id":102029090200,
+        "img":"https://alisontravelgroup.com/uploads/e1bf6da0c2e1ff1a7193.jpg",
+        "text":"Memorable Baku tour package"
+      }
+    ],
+    "items": [
+      {
+        "id": 1,
+        "img": "https://alisontravelgroup.com/uploads/7dbff6c72df4355bc8fd.webp",
+        "title": "Baku",
+        "text":"Baku",
+        "description": "Baku, far more than just the capital of Azerbaijan, sits as the historical, cultural and business center of this West Asian country. Aptly nicknamed the City of Winds, Baku’s location on the western shore of the Caspian Sea subjects it to strong winds throughout the year while also gracing the city with gorgeous seaside views. With a population of over 2 million people, Baku is the largest city on the Caspian Sea and in the entire Caucasus region. Baku offers attractions for everybody: Sunny beaches provide a prime spot to unwind, while elegant theaters and quirky museums will satisfy the cultured tourist. Modern architecture creates an otherworldly contrast with Old City quarters, while beautifully designed parks provide the perfect place to unwind in a serene environ. Trendy cafes and nights clubs attract young people, and delicious cuisine will satisfy taste buds of every type. The city offers dozens of pedestrian-friendly streets and entertainment centers for the comfort of its residents and visitors. No matter your age or sphere of interest, Baku’s diversity and festive vibe are hard to resist."
+      },
+      {
+        "id": 2,
+        "img": "https://alisontravelgroup.com/uploads/05804b7c5c17fcc4c389.jpeg",
+        "title": "Gabala",
+        "text":"Gabala",
+        "description": "Gabala is considered a popular tourist destination due to the combination of a very good spring climate, woods along the mountains and beautiful nature was exploited by the construction of large numbers of hotels and apartments in city. The city contains “Gabaland” amusement park, There are all conditions for recreation and entertainment for children an ice skating rink Gabala has several shopping malls; the most famous city center mall is Gabala Mall. Tufan Dag Ski Complex, one of the biggest mountain resorts in Caucasus located in Gabala Since 2009, city has been home of Gabala International Music Festival, which included performances from classical and jazz performers Here tourists are available for restaurants and hotel services at a high level."
+      },
+      {
+        "id": 3,
+        "img": "https://alisontravelgroup.com/uploads/e1877fc3f43e1fb6df87.jpg",
+        "title": "Shamakhi",
+        "text":"Shamakhi",
+        "description": "Shamakhi is in the east-central Azerbaijan. It is located 76 miles (122 km) west of Baku and is one of the oldest cities in the republic, dating from the 6th century AD, but the modern city was not incorporated until 1824. From the 9th to the 16th century, it was the residence of the Shirvan shahs. There are numerous historical buildings, including a mosque and a mausoleum, which have been damaged by the frequent earthquakes. Şamaxı is now a centre of food industries and is especially noted for wines. A brocaded, flat-stitch carpet with mosaic-tile patterns is produced in the surrounding area"
+      },
+      {
+        "id": 4,
+        "img": "https://alisontravelgroup.com/uploads/091549b5131d92bff881.jpg",
+        "title": "Shaki",
+        "text":"Shaki",
+        "description": "Shaki (Sheki), a small town in the lower slopes of Greater Caucasus. The main attractions in Shaki, alongside the surrounding forested mountains and snow-topped peaks of Caucasus, are related to the colorful history of the city. The first settlements in the area date back to the Bronze Age, but the present day city was established in 18th century, after floods destroyed the original Shaki. The town, and royal capital was moved to Nukha Fortress, built by Khan Haji Chalabi in year 1772. In early 19th century Shaki flourished as a trade town between caravan routes, and as a silk-weaving town. The walled fortress is well-preserved, and on a stroll in the old town, tourists can visit beautifully restored royal palaces and historical caravanserais."
+      },
+      {
+        "id": 5,
+        "img": "https://alisontravelgroup.com/uploads/6934b250101f8ea9be29.jpg",
+        "title": "Guba",
+        "text":"Guba",
+        "description": "Located in the north-east of Azerbaijan, Guba is a great place to experience the Caucasus Mountains. Timeless mountain villages are populated by diverse peoples and offer great hiking and ecotourism opportunities. In the city itself you can discover some intriguing culinary secrets while in the surrounding villages local women weave some of the finest carpets in the Caucasus."
+      },
+      {
+        "id": 6,
+        "img": "https://alisontravelgroup.com/uploads/8179236789b95eaca003.webp",
+        "title": "Shahdag",
+        "text":"Shahdag",
+        "description": "Shahdag – is exactly that special place, where you should go, if you wish to travel to winter fairytale. Those snow-white fields, bright sun, and mountain weather – best remedy from the tiredness from noisy cities. Being the first ski resort in Azerbaijan, Shahdag very soon became the favorite place of many local citizens, where they can celebrate the New Year or just spend joyful weekends."
+      },
+      {
+        "id": 7,
+        "img": "https://alisontravelgroup.com/uploads/04c0a5a7eb038a001e1b.webp",
+        "title": "Ganja",
+        "text":"Ganja",
+        "description": "Ganja, the second-largest city in Azerbaijan with a name that is hard to forget, is a city full of beautiful red brick architectures, a plethora of things to do and see, and a great base to go explore the beautiful lakes of Goygol and Maralgol. Ganja has a plethora of beautiful ancient architectures all around the city and one of the most prominent ones is the Shah Abbas Mosque or as some call it Juma Mosque (Friday Mosque). Ganja is a homeland of the famous poet Nizami Ganjavi, poetess Mahsati Ganjavi, poet and “sage of Ganja” Mirza Shafi Vazeh. The Mausoleum of Nizami Ganjavi is located right at the entry of the city. The tomb of Nizami has been a place of devoted pilgrimage for many centuries."
+      }
+      ,
+      {
+        "id": 8,
+        "img": "https://alisontravelgroup.com/uploads/f7d0b6f6817c5481ac5c.webp",
+        "title": "Lankaran",
+        "text":"Lankaran",
+        "description": "Wedged between the Caspian Sea and the lush Talysh Mountains, Lankaran is a region of unique natural diversity. The city itself is an old port that used to be surrounded by fortifications, and it’s ideally placed between some of Azerbaijan’s best nature reserves. The region is also famed for its citrus fruits and flavoursome cuisine, as well as being the centre of Azerbaijani tea growing."
+      }
+    ]
+  }
+  

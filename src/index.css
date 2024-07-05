@@ -1,0 +1,15 @@
+
+  @font-face {
+    font-family: 'GT-Eesti';
+    src: url(../src/GT-Eesti-Display-Medium-Trial.woff2);
+}  
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'GT-Eesti', sans-serif;
+}
+
