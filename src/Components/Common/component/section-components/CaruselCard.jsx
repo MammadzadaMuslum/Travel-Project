@@ -228,7 +228,7 @@ function CaruselCard() {
           }
         `}
       />
-      <Box textAlign="center" margin="50px 0" display={pathname === "/hotel-bookings/hotel" ? "none" : "block"}>
+      <Box textAlign="center" margin="50px 0" display={pathname === "/hotel-bookings/hotel" || "/tours" ? "none" : "block"}>
         <Text sx={h2}>Best hotel bookings</Text>
         <Text sx={p2}>Best hotel bookings</Text>
       </Box>
@@ -278,8 +278,99 @@ function CaruselCard() {
           </Box>
         ))}
       </Slider>
+      <Box  display={pathname==="/tours" ? "block" :"none"}>
+      <Box textAlign="center" margin="50px 0">
+            <Text sx={h2}>Ratings & Reviews</Text>
+            <Text sx={p2}>Customer reviews</Text>
+          </Box>
+          <Slider {...settings}>
+            <Box px={2} h="300px">
+              <Card h="299px">
+                <CardHeader>
+                  <Flex>
+                    <Box>
+                      <Text sx={h}>Rakesh S - India</Text>
+                      <Text color="#149d63">Verified booking</Text>
+                      <Text sx={p2}>
+                        Great trip, the service provided, the team was great.
+                      </Text>
+                    </Box>
+                    <Box w="24px">
+                      <Image src={googleimg} w="100%" />
+                    </Box>
+                  </Flex>
+                </CardHeader>
+                <CardFooter sx={cardfooter2}>
+                  <Flex justifyContent="space-between" alignItems="center" h="100%">
+                    <Flex alignItems="center" gap="10px">
+                      {renderStars("rakesh-s-india", ratings["rakesh-s-india"])}
+                    </Flex>
+                    <Text color="#1a2b49">July 21, 2023</Text>
+                  </Flex>
+                </CardFooter>
+              </Card>
+            </Box>
+            <Box px={2}>
+              <Card h="299px">
+                <CardHeader>
+                  <Flex>
+                    <Box>
+                      <Text sx={h}>Rakesh S - India</Text>
+                      <Text color="#149d63">Verified booking</Text>
+                      <Text sx={p2}>
+                        Great trip, the service provided, the team was great.
+                      </Text>
+                    </Box>
+                    <Box w="24px">
+                      <Image src={googleimg} w="100%" />
+                    </Box>
+                  </Flex>
+                </CardHeader>
+                <CardFooter sx={cardfooter2}>
+                  <Flex justifyContent="space-between" alignItems="center" h="100%">
+                    <Flex alignItems="center" gap="10px">
+                      {renderStars("rakesh-s-india", ratings["rakesh-s-india"])}
+                    </Flex>
+                    <Text color="#1a2b49">July 21, 2023</Text>
+                  </Flex>
+                </CardFooter>
+              </Card>
+            </Box>
+            <Box px={2}>
+              <Card h="299px">
+                <CardHeader>
+                  <Flex>
+                    <Box>
+                      <Text sx={h}>Rakesh S - India</Text>
+                      <Text color="#149d63">Verified booking</Text>
+                      <Text sx={p2}>
+                        Great trip, the service provided, the team was great.
+                      </Text>
+                    </Box>
+                    <Box w="24px">
+                      <Image src={googleimg} w="100%" />
+                    </Box>
+                  </Flex>
+                </CardHeader>
+                <CardFooter sx={cardfooter2}>
+                  <Flex justifyContent="space-between" alignItems="center" h="100%">
+                    <Flex alignItems="center" gap="10px">
+                      {renderStars("rakesh-s-india", ratings["rakesh-s-india"])}
+                    </Flex>
+                    <Text color="#1a2b49">July 21, 2023</Text>
+                  </Flex>
+                </CardFooter>
+              </Card>
+            </Box>
+          </Slider>
+          <Box textAlign="center" margin="50px">
+                <Button  onClick={onOpen} bg="#ca304d" padding="10px 50px" color="white">
+          Write review
+        </Button>
 
-      {pathname !== "/hotel-bookings/hotel" && (
+          </Box>
+          </Box>
+      {pathname !== "/hotel-bookings/hotel" || "/tours"  && (
         <>
           <Box textAlign="center" margin="50px 0">
             <Text sx={h2}>Ratings & Reviews</Text>

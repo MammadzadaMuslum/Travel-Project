@@ -24,6 +24,7 @@ import {
   ModalFooter,
   ModalBody,
   FormControl,
+  Card,
 } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import { IoTimerOutline } from "react-icons/io5";
@@ -34,6 +35,7 @@ import foto3 from "../../../assets/img/hotelimg/f9dd8310fc5bce343afb.webp";
 import foto4 from "../../../assets/img/hotelimg/396dd3f137b4257bf715.webp";
 import foto5 from "../../../assets/img/hotelimg/52f0f3075fcd321f61e0.webp";
 import CaruselCard from "../../Common/component/section-components/CaruselCard";
+import Slider from "react-slick";
 
 function HotelWeb() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -56,6 +58,41 @@ function HotelWeb() {
     };
     starts();
   }, []);
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: false,
+    autoplaySpeed: 3000,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
 
   const handleStarClick = (id, rating) => {
     setRatings({ ...ratings, [id]: rating });
@@ -153,6 +190,7 @@ function HotelWeb() {
               templateRows="1fr 1fr"
               gap={3}
               margin="20px 0"
+              display={{sm:"none",md:"grid",lg:"grid"}}
             >
               <GridItem colSpan={1} rowSpan={2}>
                 <Image
@@ -199,8 +237,38 @@ function HotelWeb() {
                 />
               </GridItem>
             </Grid>
+            <Box margin="10px 0" display={{sm:"block",md:"none",lg:"none"}}>
+               <Slider {...settings}>
+            <Box>
+              <Card>
+                <Image src={foto1} h="353px"  />
+              </Card>
+            </Box>
+            <Box>
+              <Card>
+                <Image src={foto2} h="353px"  />
+              </Card>
+            </Box>
+            <Box>
+              <Card>
+                <Image src={foto3} h="353px" />
+              </Card>
+            </Box>
+            <Box>
+              <Card>
+                <Image src={foto4} h="353px"  />
+              </Card>
+            </Box>
+            <Box>
+              <Card>
+                <Image src={foto5} h="353px" />
+              </Card>
+            </Box>
+            </Slider>
+            </Box>
+           
           </Box>
-          <Flex m="100px 0" justifyContent="space-between">
+          <Flex m="100px 0" justifyContent="space-between" flexDirection={{sm:"column",lg:"row"}}>
             <Flex flexDirection="column">
               <Text fontSize="30px" fontWeight="600">
                 Hotel includes:
@@ -280,7 +348,7 @@ function HotelWeb() {
           </Flex>
         </Box>
       </Container>
-      <Box bg="#f8f9fb" p="40px 150px">
+      <Box bg="#f8f9fb" p={{sm:"40px 20px",md:"40px 20px",lg:"40px 150px"}}>
         <Text color="#ca304d" fontWeight="600">
           Overview
         </Text>
@@ -318,9 +386,9 @@ function HotelWeb() {
         </Box>
         <CaruselCard />
       </Container>
-      <Box bg="#f8f9fb" p="40px 150px" textAlign="center">
+      <Box bg="#f8f9fb" p={{sm:"40px 20px",md:"40px 20px",lg:"40px 150px"}} textAlign="center">
         <Text fontSize="36px">Ratings & Reviews</Text>
-        <Button onClick={onOpen} bg="#ca304d" padding="10px 50px" color="white">
+        <Button onClick={onOpen} bg="#ca304d" padding="10px 50px" color="white" w={{sm:"100%",md:"100%",lg:"20%"}}>
           Write review
         </Button>
       </Box>

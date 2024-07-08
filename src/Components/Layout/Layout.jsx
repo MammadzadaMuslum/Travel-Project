@@ -10,6 +10,7 @@ import Singup from "../Common/component/register/Singup";
 import Terms from "../Pages/Terms";
 import Tours from "../Pages/Tours";
 import HotelWeb from "../Pages/main/HotelWeb";
+import PacksWeb from "../Pages/main/PacksWeb";
 
 
 function Layout() {
@@ -26,6 +27,7 @@ function Layout() {
           <Route path="/b2b/signup" element={<Singup/>}/>
           <Route path="/terms" element={<Terms/>}/>
           <Route path="/hotel-bookings/hotel" element={<HotelWeb/>}/>
+          <Route path="/tours" element={<PacksWeb/>}/>
         </Routes>
         <Footer />
     </>

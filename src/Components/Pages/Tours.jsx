@@ -2,7 +2,7 @@ import { Box, Card, CardBody, CardFooter, CardHeader, Container, Flex, Grid, Ima
 import React, { useEffect, useState } from 'react';
 import bannerImage from "../../assets/img/banner.webp";
 import axios from 'axios';
-import { useLocation, useParams } from 'react-router-dom';
+import { Link, useLocation, useParams } from 'react-router-dom';
 import { IoTimeOutline, IoTimerOutline } from 'react-icons/io5';
 import { FaStar } from "react-icons/fa";
 function Tours() {
@@ -114,6 +114,7 @@ function Tours() {
         </Flex>
         <Grid gridTemplateColumns={{sm:"auto",md:"auto auto",lg:"auto auto auto"}} gap="20px" marginBottom="50px">
           {data?.map((packs, id) => (
+            <Link to="/tours">
             <Card key={id} cursor="pointer">
                 <Box overflow="hidden">
                       <Image sx={img} src={packs.image} />
@@ -135,6 +136,8 @@ function Tours() {
               <Text fontWeight="500" fontSize="18px">from <b style={{ fontSize: "20px" }}>{packs.price} $</b></Text>
               </CardFooter>
             </Card>
+            </Link>
+            
           ))}
         </Grid>
       </Container>
