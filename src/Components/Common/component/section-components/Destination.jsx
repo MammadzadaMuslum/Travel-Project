@@ -122,7 +122,7 @@ function Destination() {
       
     },
   };
-  const display = useBreakpointValue({ base: "none",sm:"none", md: "none",lg:"block" });
+  const display = useBreakpointValue({ base: "none",sm:"none", md: "none",lg:"flex" });
   return (
     <Container maxW="1640px">
       <Flex flexDirection="column" alignItems="center" justifyContent="center" display={display}>
